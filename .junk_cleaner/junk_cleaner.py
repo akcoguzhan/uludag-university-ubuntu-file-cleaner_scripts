@@ -44,6 +44,8 @@ def get_junk_files(includedDirectories="/Cleaner/.junk_cleaner/include.txt", exc
 
     return to_look, to_exclude
 
+
+
 def clean_directories():
     previous_boot_time = get_previous_boot_time()
     current_boot_time = get_current_boot_time()
