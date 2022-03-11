@@ -47,6 +47,8 @@ def get_junk_files(includedDirectories="/Cleaner/.junk_cleaner/include.txt", exc
 
     return to_look, to_exclude
 
+
+
 def clean_directories():
     previous_boot_time = get_previous_boot_time()
     current_boot_time = get_current_boot_time()
@@ -133,6 +135,11 @@ def backup_files(backup_boot_time, junk_files):
         backup_log.write(backup_boot_time + '\n')
         backup_log.close()
 
+# root tarafından silme işlemi yapıldığı için dizinlerin sahipliği
+# root hesabına geçmektedir. ogrenci hesabı tarafından herhangi bir 
+# dosya için silme işleminin yapılabilmesi için, Trash ve alt dizinlerin
+# sahipliğinin veya yazma ve okuma izinlerinin öğrenci için de tekrardan
+# aktif edilmesi gerekmektedir
 def clear_trash():
     os.system('rm -rf /home/ogrenci/.local/share/Trash/*')
     os.system('chmod -R o+rw /home/ogrenci/.local/share/Trash')
@@ -140,7 +147,6 @@ def clear_trash():
     os.system('chmod -R o+rw /home/ogrenci/.local/share/Trash/expunged')
     os.system('chmod -R o+rw /home/ogrenci/.local/share/Trash/info')
     
-
 
 def main():
     clean_directories()
