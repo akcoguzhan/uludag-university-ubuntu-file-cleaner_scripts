@@ -1,0 +1,5 @@
+# Program tarafından özellikle incelenmemesi gereken dizinleri giriniz
+# /home/user/Documents
+# üstteki örnekte olduğu gibi dizinleri listenin sonuna ekleyiniz
+
+/home/ogrenci/Masaüstü/Cleaner

@@ -1,0 +1,9 @@
+# Silinmesi istenilen dosyalar için bakılacak olan dizinleri örnekte olduğu gibi dosyanın sonuna ekleyiniz:
+# /home/user/Desktop
+
+/home/ogrenci/Masaüstü
+/home/ogrenci/Belgeler
+/home/ogrenci/İndirilenler
+/home/ogrenci/Müzik
+/home/ogrenci/Resimler
+/home/ogrenci/Videolar

@@ -1,0 +1,8 @@
+[Unit]
+Description=System boot logger for Cleaner operations
+
+[Service]
+ExecStart=/Cleaner/services/boot_logger.sh
+
+[Install]
+WantedBy=multi-user.target

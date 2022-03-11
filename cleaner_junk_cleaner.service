@@ -1,0 +1,8 @@
+[Unit]
+Description=Junk File Cleaner for Given Directories
+
+[Service]
+ExecStart=/Cleaner/services/junk_cleaner.sh
+
+[Install]
+WantedBy=multi-user.target
