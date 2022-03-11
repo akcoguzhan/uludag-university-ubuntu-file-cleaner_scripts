@@ -11,10 +11,6 @@ import time
 def os_command_with_return(command, decode="utf-8"):
     cmd = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
     return cmd.stdout.read().decode(decode)
-    
-# deger dondurmeyen isletim sistemi fonksiyonlari icin
-def os_command(command):
-    cmd = subprocess.Popen(command, shell=True)
 
 # bir onceki bilgisayar acilis zaman bilgisini doner
 def get_previous_boot_time():
