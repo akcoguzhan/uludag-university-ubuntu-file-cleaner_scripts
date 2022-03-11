@@ -10,6 +10,7 @@ import time
 # isletim sisteminden donusu olan fonksiyonlar icin string donusu yapar
 def os_command_with_return(command, decode="utf-8"):
     cmd = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
+    cmd.wait()
     return cmd.stdout.read().decode(decode)
 
 # bir onceki bilgisayar acilis zaman bilgisini doner
