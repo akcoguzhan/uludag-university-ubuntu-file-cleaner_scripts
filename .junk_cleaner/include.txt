@@ -1,6 +1,3 @@
-# Silinmesi istenilen dosyalar için bakılacak olan dizinleri örnekte olduğu gibi dosyanın sonuna ekleyiniz:
-# /home/user/Desktop
-
 # Enter directories that should deleted by the program
 # /home/user/Desktop
 # add directories to the end of the list as in the example above
