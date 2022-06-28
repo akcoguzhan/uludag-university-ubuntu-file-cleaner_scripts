@@ -5,7 +5,10 @@
 </p>
 
 
--------------
+<h2 align="center">Uludağ Üniversitesi Bilgisayar Mühendisliği laboratuvarında bir linux dağıtımı olan debian tabanlı Ubuntu OS kullanılmaktadır. Bilgisayarlar ortak kullanıma açık ve herhangi bir öğrenci tarafından kullanılabilmektedir. Öğrenciler bilgisayarlarda işlemlerini yaptıktan sonra dosyalarını silmeden bırakabilmekte ve bu dosyalar zaman içerisinde birikerek sistem içerisinde karmaşalara ve bilgisayarı sonradan kullanacak olan öğrenciler için problemlere vs. neden olabilmektedir. Bu ve benzeri problemlerin önüne geçmek ve bilgisayaları olabildiğince temiz ve sade tutabilmek adına Uludağ Üniversitesi Bilgisayar Mühendisliği Bölümü tarafından istenilen kıstaslara uyarak bir takım script'ler geliştirilmiştir. Windows ve Mac işletim sistemlerinde kullanılan Deepfreeze benzeri uygulamalar Ubuntu işletim sistemi için bulunmadığı veya bulunanların da eski olması, güncel olmaması ve güvenlik açığı problemleri nedeniyle bu tür bir yöntem tercih edilmiştir. Öğrencilerin bilgisayar kullanım alışkanlıklarını olabildiğince az bir seviyede etkilemeye gayret edilmiştir. Bu amaç için yapılan tüm değişikliklere aşağıdaki açıklamalardan erişilebilir.</h2>
+<div align="center"><a href="https://www.uludag.edu.tr/bm">ULUDAĞ ÜNİVERSİTESİ BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ</a></div>
+
+<h1></h1>
 
 **ÖNEMLİ**: boot_logger ve junk_cleaner klasörlerinin yeniden isimlendirilip klasör başlarına . işareti konularak dizinlerin gizlenmesi gerekmektedir.
 dosyaların incelenebilmesi için klasörler gizli tutulmadı.
@@ -238,6 +241,5 @@ cd /home/ogrenci/Masaüstü
 fi
 ```
 > Bu işlem herhangi bir dizinde sağ tık menüsünden **Terminali burada aç** ile açılan terminallerin dizinini değiştirmemektedir. Yalnızca home dizinde açılan terminaller için geçerli bir işlemdir.
-  
 
 
