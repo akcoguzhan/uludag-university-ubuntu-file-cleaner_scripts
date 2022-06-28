@@ -2,8 +2,4 @@
 # /home/user/Documents
 # üstteki örnekte olduğu gibi dizinleri listenin sonuna ekleyiniz
 
-# Enter directories that should not be specifically deleted by the program
-# /home/user/Documents
-# add directories to the end of the list as in the example above
-
 /home/ogrenci/Masaüstü/Cleaner
