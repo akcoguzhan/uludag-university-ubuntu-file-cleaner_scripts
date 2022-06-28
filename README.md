@@ -1,3 +1,4 @@
+[click here for english descriptions (english branch)](https://github.com/akcoguzhan/uludag-university-ubuntu-file-cleaner_scripts/tree/english)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48435702/176270041-869570c9-98ae-4c88-964b-f05483794240.png" width="200px" height="200px"/>
 <h1 align="center">ULUDAĞ ÜNİVERSİTESİ BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ TARAFINDAN DESTEKLENMİŞ BİR ÇALIŞMADIR</h1>
